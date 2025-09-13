@@ -31,22 +31,11 @@ function RecipeContainer() {
             <section
                 className="recipeHeroSection"
                 style={{
-                    backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${import.meta.env.BASE_URL}assets/recipe.jpg)`,
-                    backgroundSize: 'cover',
-                    backgroundPosition: 'center',
-                    backgroundRepeat: 'no-repeat',
-                    width: '100%',
-                    height: '500px', 
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    color: 'white',
-                    textAlign: 'center'
-                }}
+                    backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${import.meta.env.BASE_URL}assets/recipe.jpg)`}}
             >
                 <div>
-                    <span style={{ fontSize: '2rem', fontWeight: 'bold' }}>Discover Delicious Recipes</span>
-                    <p style={{ fontSize: '1.2rem', marginTop: '0.5rem' }}>Find your next meal</p>
+                    <span>Discover Delicious Recipes</span>
+                    <p>Find your next meal</p>
                 </div>
             </section>
 
