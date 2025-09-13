@@ -28,15 +28,31 @@ function RecipeContainer() {
 
     return (
         <div className="recipeContainer">
-            <section className="recipeHeroSection">
+            <section
+                className="recipeHeroSection"
+                style={{
+                    backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${import.meta.env.BASE_URL}assets/recipe.jpg)`,
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center',
+                    backgroundRepeat: 'no-repeat',
+                    width: '100%',
+                    height: '500px', 
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    color: 'white',
+                    textAlign: 'center'
+                }}
+            >
                 <div>
-                    <span>Discover Delicious Recipes</span>
-                    <p>Find your next meal</p>
+                    <span style={{ fontSize: '2rem', fontWeight: 'bold' }}>Discover Delicious Recipes</span>
+                    <p style={{ fontSize: '1.2rem', marginTop: '0.5rem' }}>Find your next meal</p>
                 </div>
             </section>
 
-           
-            <Link to='/categories'><button className="backcetegorizbtn"><FaAngleLeft/> Back to Categories</button></Link>
+
+
+            <Link to='/categories'><button className="backcetegorizbtn"><FaAngleLeft /> Back to Categories</button></Link>
 
             <section className="recipesCardSection">
                 <div className="recipeCardContainer">
@@ -52,7 +68,7 @@ function RecipeContainer() {
 
                             return <div className="card" key={idx}>
                                 <img src={item.strMealThumb} />
-                                <h3>{item.strMeal}</h3> 
+                                <h3>{item.strMeal}</h3>
                                 <div className="timeRating">
                                     <div className="time">
                                         <span><LuClock /> <span>{time} min</span></span>
@@ -64,7 +80,7 @@ function RecipeContainer() {
 
                                 <Link to={`/recipes/${slugify(item.strMeal)}/${item.idMeal}`}><button>View Recipe</button></Link>
                             </div>
-                        }) 
+                        })
                     }
                 </div>
             </section>

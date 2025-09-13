@@ -66,8 +66,8 @@ function Favrate() {
                                           draggable: true,
                                        });
                                     }}
-                                 > 
-                                    <ClearIcon /> 
+                                 >
+                                    <ClearIcon />
                                  </span>
 
                               </div>
@@ -121,7 +121,7 @@ function Favrate() {
                </section>
             ) : (
                <div className="emptybag">
-                  <img src={'/assets/cardEmpty.jpg'} alt="Empty bag" />
+                  <img src={`${import.meta.env.BASE_URL}assets/cardEmpty.jpg`} alt="Empty bag" />
                   <p>Your favorites list is empty.</p>
                </div>
             )

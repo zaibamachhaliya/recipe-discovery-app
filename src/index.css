@@ -1148,10 +1148,6 @@ hr {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image:
-    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    /* black overlay */
-    url("/assets/recipe.jpg");
   display: flex;
   align-items: center;
   justify-content: center;
