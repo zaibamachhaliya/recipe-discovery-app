@@ -15,9 +15,10 @@ function HeroSection() {
                     </div>
                     <div className="herovideo">
                         <video autoPlay loop muted playsInline>
-                            <source src={`${import.meta.env.BASE_URL}assets/large (1).mp4`} type="video/mp4" />
+                            <source src={`${import.meta.env.BASE_URL}assets/large(1).mp4`} type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
+
                     </div>
 
                 </div>
