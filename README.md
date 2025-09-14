@@ -1,12 +1,31 @@
-# React + Vite
+# 🍽️ Food Recipes Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and fully responsive **Food Recipes Web App** built with **React, React Router, Redux Toolkit, Material UI, JavaScript, and CSS**.  
+This project allows users to explore recipes by category, view detailed recipe pages, manage favorite recipes, switch between light/dark themes, and handle authentication with signup functionality.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 🌍 **Home Page** – clean landing page with explore section  
+- 📂 **Categories Page** – browse recipes by category  
+- 📖 **Recipe Detail Page** – view detailed instructions & ingredients  
+- ❤️ **Favorites Section** – save your favorite recipes with a counter badge  
+- 🎨 **Theme Toggle** – Light & Dark mode support  
+- 🔒 **Authentication** – signup/login integration  
+- ⚡ **Fast Navigation** with React Router  
+- 🔄 **State Management** with Redux Toolkit  
+- 🎨 **Material UI Components** – modern, accessible, and responsive design  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **React.js** – frontend library  
+- **React Router** – routing & navigation  
+- **Redux Toolkit** – global state management  
+- **Material UI (MUI)** – prebuilt UI components & icons  
+- **JavaScript (ES6+)** – application logic  
+- **CSS3 / Responsive Design** – custom styling  
+- **Clerk/Auth** (if using) – authentication  
+
